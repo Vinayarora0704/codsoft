@@ -1,1 +1,146 @@
+index.html
 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Vinay Arora</h1>
+            <p>Welcome to my portfolio! I am a passionate student with a keen interest in web development and artificial intelligence. My journey into the world of technology has been driven by a desire to create innovative solutions and explore the frontiers of AI. Through various projects and coursework, I have honed my skills in designing dynamic websites and developing intelligent systems. This portfolio showcases my work, reflecting my dedication to learning and my enthusiasm for merging creativity with technology. Thank you for visiting, and I hope you enjoy exploring my projects as much as I enjoyed creating them.</p>
+    
+        </div>
+    </header>
+    
+    <section id="about">
+        <div class="about-container">
+            <img src="vinayarora.jpg" alt="C:\Users\user\Downloads\vinayarora.jpg">
+            <p>I am a passionate and dedicated web development student with a strong foundation in both front-end and back-end technologies. My journey in web development began with a curiosity for how websites are built and a drive to create interactive and dynamic web applications. I am committed to continuously learning and improving my skills to keep up with the ever-evolving landscape of web development.
+            </p>
+        </div>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>web development</li>
+            <li>Web designing</li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Spotify Clone Project</h3>
+            <p>"Created a web application mirroring Spotify's core functionalities using React.js and Firebase. Implemented features include user authentication, real-time music streaming, playlist management, and responsive design. This project showcases my proficiency in front-end development, API integration, and delivering a polished user experience akin to a popular music streaming service."</p>
+            <img src="Spotify.png" alt="C:\Web Development Course\Portfolio\Spotify.png">
+        </div>
+        <div class="project">
+            <h3>Netflix Clone Project</h3>
+            <p>"Developed a web application replicating Netflix's user interface and functionalities. Built using React.js for front-end and Firebase for backend services, it features user authentication, dynamic content fetching, and responsive design. This project demonstrates my skills in modern web development, emphasizing seamless user experience and robust functionality."</p>
+            <img src="Netflix.png" alt="C:\Web Development Course\Portfolio\Netflix.png">
+        </div>
+    </section>
+    
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="CV Vinay Arora.pdf" download>Download Resume</a>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: aroravinay0704@gmail.com</p>
+        <p>Phone: +918287504462</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Vinay Arora. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+style.css
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+#about {
+    padding: 20px;
+    text-align: center;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.about-container img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#skills, #projects, #resume, #contact {
+    padding: 20px;
+    text-align: center;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
