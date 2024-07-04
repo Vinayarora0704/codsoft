@@ -1,1 +1,136 @@
+index.html
 
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+#about {
+    padding: 20px;
+    text-align: center;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.about-container img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#skills, #projects, #resume, #contact {
+    padding: 20px;
+    text-align: center;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+
+
+style.css
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.calculator {
+    width: 320px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+    background-color: #333;
+    color: white;
+    font-size: 2em;
+    text-align: right;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1px;
+}
+
+.btn {
+    background-color: #fff;
+    border: none;
+    padding: 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn:hover {
+    background-color: #f1f1f1;
+}
+
+#clear {
+    grid-column: span 2;
+    background-color: #f44336;
+    color: white;
+}
+
+#equals {
+    grid-column: span 2;
+    background-color: #4CAF50;
+   color:white;
+}
